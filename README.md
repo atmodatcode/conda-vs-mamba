@@ -45,10 +45,40 @@ So we have to create our own conda environment locally (default: HOME directory)
   ```
 
   
-### Create a new conda environment named tgif.
+### Create a new conda environment named tgif and activate it
 
   ```
 conda create --name tgif python=3
   ```
 
+  ```
+conda activate tgif
+  ```
 
+### Install your own packages into the tgif environment
+
+Install the cfchecker
+  ```
+conda install cfchecker
+  ```
+Apply the cfchecker on a single NetCDF file
+  ```
+cfchecks /pool/data/ICON/buildbot_data/nwp/checksuite_nwp/ICON_LAM/input/lam_test_DOM01.parent.nc
+  ```
+  
+Install mamba package manager
+  ```
+conda install mamba
+  ```
+
+### Compare installation with mamba and conda
+  ```
+conda install cdo magics nco iris hdf4 gdal  # --> resolving environments takes forever!
+  ```
+
+Try the same installation with mamba
+  ```
+mamba install cdo magics nco iris hdf4 gdal  # --> resolving environments is much faster!
+  ```
+
+### Compare installation with mamba and conda
