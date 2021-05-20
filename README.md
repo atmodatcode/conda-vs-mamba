@@ -52,6 +52,10 @@ conda create --name tgif python=3
   ```
 
   ```
+conda env list       # -- see what conda enviroments are available 
+  ```
+
+  ```
 conda activate tgif
   ```
 
@@ -81,4 +85,39 @@ Try the same installation with mamba
 mamba install cdo magics nco iris hdf4 gdal  # --> resolving environments is much faster!
   ```
 
-### Compare installation with mamba and conda
+### Save your tgif environment in an environment file (Default: environment.yml) 
+
+
+  ```
+conda env export --name tgif --from-history|sed -e '$ d' > environment.yml  # --> sed to remove system-dependent prefix
+  ```
+creating the environment file with mamba using the --name option creates an incomplete entry.  
+
+
+### Deactivate and remove the tgif environment 
+
+  ```
+conda deactivate  # --> deactivates tgif, going back to conda base
+  ```
+
+  ```
+conda env remove --name tgif  # --> removes tgif environment, see: conda env list
+  ```
+
+### Create tgif environment again
+
+  ```
+mamba deactivate                       # --> deactivates tgif, going back to conda base
+  ```
+  ```
+mamba env create                       # --> creates enviromment from environment.yml (default) 
+mamba env create -f environment.yml
+  ```
+  ```
+conda activate tgif
+```
+now you reproduced your previous environment
+
+cdo magics .....
+
+
