@@ -6,17 +6,16 @@ Material for TGIF 28.05.2021
 
 Here are the snakes we want to deal with:
 
-* Python: programming language
-* Conda: package manager ... made in Python
-* Mamba: the same as `conda` ... just makes package installation faster!
+* `python`: programming language
+* `conda`: package manager ... made in `python`
+* `mamba`: the same as `conda` ... just makes package installation faster!
 
 ### Why conda?
 
-Some remarks:
-* A package manager which can be use as normal user (no admin rights)
-* You can create environments which contain all the packages you need.
+* A package manager which can be used as normal user (no admin rights).
 * You can build your own packages ... there is a community supporting you on *conda-forge*.
-* You can use conda environments to make your projects reproducible.
+* You can create environments which contain all the packages you need.
+* You can use conda environments to make your projects reproducible and interoperable.
 
 https://docs.conda.io/en/latest/
 
@@ -27,18 +26,19 @@ https://docs.conda.io/en/latest/
 
 https://github.com/mamba-org/mamba
 
-## Run this demo on binder
+## Let's try it out in a web browser!
 
-You can run this demo with binder on a Linux system:
+Click on the button to run this demo with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/atmodatcode/conda-vs-mamba/HEAD)
 
-A Jupyter notebook opens ... we will not use it!
+It takes a while...
 
-On the right side of the notebook you will find a button `New`.
-Please launch a terminal with: `New -> Terminal`
+and then a Jupyter app opens. 
+On the top right, you will find the button `New`.
+Please launch a Linux terminal with: `New -> Terminal`
 
-**Note**: binder has a timeout after 10 minutes of inactivity.
+**Note**: Binder has a timeout after 10 minutes of inactivity.
 
 ## Prepare conda/mamba
 
