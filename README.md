@@ -106,7 +106,7 @@ conda install cfchecker
 
 Apply the `cfchecker` on a single NetCDF file:
 ```
-cfchecks /pool/data/ICON/buildbot_data/nwp/checksuite_nwp/ICON_LAM/input/lam_test_DOM01.parent.nc
+cfchecks test.nc
 ```
 
 ### Compare installation with mamba and conda
