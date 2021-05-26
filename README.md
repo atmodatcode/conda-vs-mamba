@@ -113,14 +113,14 @@ cfchecks test.nc
 
 Now, we want to install more packages:
 ```
-conda install cdo magics nco iris hdf4 gdal
+conda install cdo magics
 ```
 
-**Note**: resolving environments takes forever!
+**Note**: resolving environments takes forever! Interrupt with one or several Ctrl–C. 
 
 Try the same installation with mamba:
 ```
-mamba install cdo magics nco iris hdf4 gdal
+mamba install cdo magics
 ```
 
 **Note**: resolving environments is much faster!
@@ -129,12 +129,8 @@ mamba install cdo magics nco iris hdf4 gdal
 
 Export your enviromment to an enviromment file (default: environment.yml):
 ```
-conda env export --name tgif --from-history|sed -e '$ d' > environment.yml
+conda env export --name tgif --from-history > environment.yml
 ```
-
-**Note**: we are using `sed` to remove system-dependent prefix.
-
-**Note**: Creating the environment file with `mamba` using the `--name` option creates an incomplete entry.  
 
 ### Deactivate and remove the tgif environment
 
@@ -177,9 +173,18 @@ cdo magics .....
 
 ## Further topics
 
-### Reproducible environments
+### Reproducible environment with *conda*
 
-Make your projects reproducible using *anaconda-project*:
+Export download links of all packages of your environment:
+```
+conda list --explicit > spec-file.txt
+```
+Rebuild identical conda environment (not cross-platform):
+```
+conda create --file spec-file.txt --name tgif2
+```
+
+### Reproducible environments with *anaconda-project*
 
 https://anaconda-project.readthedocs.io/en/latest/
 
