@@ -83,12 +83,6 @@ Activate the *tgif* enviromment:
 conda activate tgif
 ```
 
-OR
-
-```
-source activate tgif
-```
-
 ### Check which conda packages are available.
 
 List all available `conda` packages in your current (*tgif*) environment:
