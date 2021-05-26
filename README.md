@@ -90,12 +90,7 @@ List all available `conda` packages in your current (*tgif*) environment:
 conda list
 ```
 
-Check if the `cfchecker` package is available:
-```
-conda list | grep cfchecker
-```
-
-Check if `cfchecker` package could be installed via `conda`:
+The `cfchecker` package is not yet available. Check if it could be installed via `conda`:
 ```
 conda search cfchecker
 ```
