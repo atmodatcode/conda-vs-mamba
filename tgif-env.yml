@@ -1,0 +1,9 @@
+name: tgif
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3
+  - cdo
+  - magics
+  - cfchecker

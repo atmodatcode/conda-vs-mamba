@@ -26,21 +26,24 @@ https://docs.conda.io/en/latest/
 
 https://github.com/mamba-org/mamba
 
+### How to install conda/mamba?
+
+In this demo we won't install `conda`.
+See the document `Installation.md` for some hints.
+`conda` and `mamba` are already available on *mistral*. 
+
 ## Let's try it out in a web browser!
 
 Click on the button to run this demo with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/atmodatcode/conda-vs-mamba/HEAD)
 
-It takes a while...
+It takes a while... and then a Jupyter app opens.
 
-and then a Jupyter app opens. 
 On the top right, you will find the button `New`.
 Please launch a Linux terminal with: `New -> Terminal`
 
 **Note**: Binder has a timeout after 10 minutes of inactivity.
-
-
 
 ## Working with conda
 
@@ -112,7 +115,7 @@ Now, we want to install more packages:
 conda install cdo magics
 ```
 
-**Note**: resolving environments takes forever! Interrupt with one or several Ctrl–C. 
+**Note**: resolving environments takes forever! Interrupt with one or several Ctrl–C.
 
 Try the same installation with mamba:
 ```
