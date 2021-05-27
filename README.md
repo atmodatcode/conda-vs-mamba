@@ -184,7 +184,6 @@ conda activate tgif
 
 Now you have reproduced your previous tgif environment.
 
-cdo magics .....
 
 ## Further topics
 
