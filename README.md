@@ -30,7 +30,7 @@ https://github.com/mamba-org/mamba
 
 In this demo we won't install `conda`.
 See the document `Installation.md` for some hints.
-`conda` and `mamba` are already available on *mistral*. 
+`conda` and `mamba` are already available on *mistral*.
 
 ## Let's try it out in a web browser!
 
@@ -42,6 +42,8 @@ It takes a while... and then a Jupyter app opens.
 
 On the top right, you will find the button `New`.
 Please launch a Linux terminal with: `New -> Terminal`
+
+![Jupyter Terminal](media/jupyter-new-terminal.png)
 
 **Note**: Binder has a timeout after 10 minutes of inactivity.
 
@@ -126,13 +128,13 @@ mamba install cdo magics
 
 ### Test your *cdo* and *magics* installations
 
-Print summary statistics with `cdo` 
+Print summary statistics with `cdo`
 
 ```
 cdo infov test.nc
 ```
 
-Create a png-plot with `magics` using a `python` script. If you like, have a look into the script with `more magicsplot.py`. 
+Create a png-plot with `magics` using a `python` script. If you like, have a look into the script with `more magicsplot.py`.
 
 ```
 python magicsplot.py
