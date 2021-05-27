@@ -105,6 +105,9 @@ cfchecks test.nc
 ### Compare installation with mamba and conda
 
 Now, we want to install more packages:
+`cdo`: Climate Data Operators (https://code.mpimet.mpg.de/projects/cdo/)
+`magics`: ECMWF's plotting package (https://confluence.ecmwf.int/display/MAGP/Magics)
+
 ```
 conda install cdo magics
 ```
@@ -117,6 +120,24 @@ mamba install cdo magics
 ```
 
 **Note**: resolving environments is much faster!
+
+### Test your `cdo` and `magics` installations
+
+Print summary statistics with `cdo` 
+
+```
+cdo infov test.nc
+```
+
+Create a png-plot with `magics` using a `python` script
+
+
+
+```
+python magicsplot.py
+```
+
+
 
 ### Save your tgif environment
 
