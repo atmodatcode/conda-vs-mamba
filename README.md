@@ -138,7 +138,7 @@ Create a png-plot with `magics` using a `python` script. If you like, have a loo
 python magicsplot.py
 ```
 
-Go to the Jupyter Home Page but, click on mymagicsplot.png to view the plot.
+Go to the Jupyter Home Page Tab, click on *mymagicsplot.png* to view the plot.
 
 ### Save your tgif environment
 
