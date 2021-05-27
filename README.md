@@ -124,7 +124,7 @@ mamba install cdo magics
 
 **Note**: resolving environments is much faster!
 
-### Test your `cdo` and `magics` installations
+### Test your *cdo* and *magics* installations
 
 Print summary statistics with `cdo` 
 
