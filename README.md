@@ -34,7 +34,7 @@ See the document `Installation.md` for some hints.
 
 ## Let's try it out in a web browser!
 
-Click on the button to run this demo with Binder:
+Right-click on the button and run this demo with Binder in a new Tab:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/atmodatcode/conda-vs-mamba/HEAD)
 
