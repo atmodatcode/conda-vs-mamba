@@ -44,17 +44,13 @@ Please launch a Linux terminal with: `New -> Terminal`
 
 ## Working with conda
 
-### Add conda-forge to the list of available channels
+### Configuration of active channels
 
-*conda-forge* provides a lot of software packages that are relevant for our work.
-
-https://conda-forge.org/
-
-Check if you are already using it:
+Check which channels conda uses, i.e. where it looks for software packages
 ```
 conda config --show-sources
 ```
-
+*conda-forge* provides a lot of software packages that are relevant for our work.
 If *conda-forge* is not yet part of your channels you can add it:
 ```
 conda config --add channels conda-forge
