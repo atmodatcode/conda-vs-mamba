@@ -108,8 +108,8 @@ cfchecks test.nc
 ### Compare installation with mamba and conda
 
 Now, we want to install more packages:
-`cdo`: Climate Data Operators (https://code.mpimet.mpg.de/projects/cdo/)
-`magics`: ECMWF's plotting package (https://confluence.ecmwf.int/display/MAGP/Magics)
+* `cdo`: Climate Data Operators (https://code.mpimet.mpg.de/projects/cdo/)
+* `magics`: ECMWF's plotting package (https://confluence.ecmwf.int/display/MAGP/Magics)
 
 ```
 conda install cdo magics
