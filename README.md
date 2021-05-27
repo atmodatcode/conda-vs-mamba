@@ -43,7 +43,7 @@ It takes a while... and then a Jupyter app opens.
 On the top right, you will find the button `New`.
 Please launch a Linux terminal with: `New -> Terminal`
 
-![Jupyter Terminal](media/jupyter-new-terminal.png)
+![Jupyter Terminal](media/jupyter-new-terminal.png){width=50%}
 
 **Note**: Binder has a timeout after 10 minutes of inactivity.
 
