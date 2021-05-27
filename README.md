@@ -51,10 +51,7 @@ Check which channels conda uses, i.e. where it looks for software packages
 conda config --show-sources
 ```
 *conda-forge* provides a lot of software packages that are relevant for our work.
-If *conda-forge* is not yet part of your channels you can add it:
-```
-conda config --add channels conda-forge
-```
+If *conda-forge* is not yet part of your channels you can add it with `conda config --add channels conda-forge`.
 
 ### Create a new conda environment named tgif
 
