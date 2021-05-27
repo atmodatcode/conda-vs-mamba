@@ -132,15 +132,13 @@ Print summary statistics with `cdo`
 cdo infov test.nc
 ```
 
-Create a png-plot with `magics` using a `python` script
-
-
+Create a png-plot with `magics` using a `python` script. If your like, have a look into the script with `more magicsplot.py`. 
 
 ```
 python magicsplot.py
 ```
 
-
+mymagicsplot.png
 
 ### Save your tgif environment
 
